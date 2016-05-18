@@ -99,11 +99,13 @@ LICENSE file.
     <!-- our internals -->
     <module>core</module>
     <module>binding-parent</module>
-    <!-- all the datastore bindings, lex sorted please -->
+	<module>cassandra2</module>
+	<module>cassandra2byz</module>
+    <!-- all the datastore bindings, lex sorted please 
     <module>accumulo</module>
     <module>aerospike</module>
     <module>cassandra</module>
-    <module>cassandra2</module>
+    
     <module>couchbase</module>
     <module>distribution</module>
     <module>dynamodb</module>
@@ -117,7 +119,7 @@ LICENSE file.
     <module>infinispan</module>
     <module>jdbc</module>
     <module>kudu</module>
-    <!--<module>mapkeeper</module>-->
+    
     <module>memcached</module>
     <module>mongodb</module>
     <module>nosqldb</module>
@@ -125,7 +127,8 @@ LICENSE file.
     <module>redis</module>
     <module>s3</module>
     <module>solr</module>
-    <module>tarantool</module>
+    <module>tarantool</module> -->
+	<!--<module>mapkeeper</module>-->
     <!--<module>voldemort</module>-->
   </modules>
 
@@ -161,6 +164,7 @@ LICENSE file.
             </goals>
             <configuration>
               <configLocation>checkstyle.xml</configLocation>
+	          <skip>true</skip>
             </configuration>
           </execution>
         </executions>
