@@ -1,7 +1,7 @@
 Executive summary
 -----------------
 
-We used [YCSB](https://github.com/brianfrankcooper/YCSB) in order to benchmark our version of [Cassandra](https://github.com/ronili/HardenCassandra) that is harden against Byzantine failures.
+We used [YCSB](https://github.com/brianfrankcooper/YCSB) in order to benchmark our version of [Cassandra](https://github.com/ronili/HardenedCassandra) that is hardened against Byzantine failures.
 You can find our client under [cassandra2byz/src/main/java/com/yahoo/ycsb/](cassandra2byz/src/main/java/com/yahoo/ycsb/)
 
 Contact
